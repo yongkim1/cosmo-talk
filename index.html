@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to CosmoTalk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>No Service</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>11:11</span>
+      </div>
+      <div class="status-bar__column">
+        <span>88%</span>
+        <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+    <header class="welcome-header">
+      <h1 class="welcome-header__title">CosmoTalk에 오신 걸 환영합니다.</h1>
+      <p class="welcome-header__text">
+        초은하단 제일의 성간 채팅 메신저. <br />생체 식별코드 또는 개인 우주선
+        호출부호로<br />로그인하세요.
+      </p>
+    </header>
+    <form action="friends.html" method="get" id="login-form">
+      <input name="username" required type="text" placeholder="ID" />
+      <input
+        name="password"
+        required
+        minlength="7"
+        type="password"
+        placeholder="PW"
+      />
+      <input type="submit" value="Log In" />
+      <a href="#">Find Cosmo Account or Password</a>
+    </form>
+
+    <script
+      src="https://kit.fontawesome.com/90ea0c2c6a.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
