@@ -1,25 +1,6 @@
-.find-icons {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 25px;
-}
-
-.find-icons__icons {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.find-icons__icons i {
-  font-size: 35px;
-}
-
-.find-icons__icons span {
-  margin-top: 15px;
-}
-
 .recommended-friends {
   display: flex;
+  flex-direction: column;
   border-top: var(--main-border);
   border-bottom: var(--main-border);
   padding: 25px 0;
@@ -32,8 +13,8 @@
 }
 
 .recommended-friends span {
-  margin: 110px 0;
   display: block;
+  margin: 110px 0;
   font-size: 18px;
   text-align: center;
 }
@@ -125,4 +106,25 @@
 
 .open-post__heart-count span {
   margin-left: 5px;
+}
+
+@keyframes heartSpin {
+  0% {
+    color: var(--mint);
+    transform: none;
+  }
+
+  50% {
+    color: var(--yellow);
+    transform: rotateY(360deg) scale(1.5);
+  }
+  100% {
+    color: var(--mint);
+    transform: none;
+  }
+}
+
+.open-post__heart-count:hover i {
+  will-change: transform;
+  animation: heartSpin 2s linear infinite;
 }

@@ -5,6 +5,8 @@
   display: flex;
   justify-content: center;
   padding: 5px 3px;
+  z-index: 2;
+  background-color: var(--space);
 }
 
 .status-bar__column {
