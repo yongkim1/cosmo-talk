@@ -64,12 +64,14 @@
   border-radius: 10px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 0 60px;
+  justify-content: space-evenly;
   margin-bottom: 30px;
 }
 
 .chat-ad-banner span,
 .chat-ad-banner i {
   color: black;
+}
+.chat-ad-banner span {
+  font-size: 15px;
 }
