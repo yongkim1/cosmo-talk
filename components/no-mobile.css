@@ -1,0 +1,73 @@
+#no-mobile {
+  position: fixed;
+  z-index: 99;
+  height: 100vh;
+  width: 100vw;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  top: 0;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+}
+
+.black-hole__circle {
+  background-color: #f4dabc;
+  width: 150px;
+  height: 150px;
+  border-radius: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 2vw 1vw #ce7b3d;
+}
+
+.black-hole__hole {
+  background-color: black;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  box-shadow: 0 0 2vw 1vw #ce7b3d inset;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.black-hole__halo {
+  width: 100px;
+  height: 100px;
+  border-radius: 55px;
+  background-color: black;
+  border: solid #f4dabc 2px;
+}
+
+.black-hole__line {
+  background-color: #f4dabc;
+  box-shadow: 0 0 2vw 1vw #ce7b3d;
+  width: 80vw;
+  height: 20px;
+  position: absolute;
+  border-radius: 20% 100%;
+}
+
+.fa-person-running {
+  position: absolute;
+  top: -5vw;
+  left: -15vw;
+  color: azure;
+  font-size: 3vw;
+  transform: rotateZ(-60deg);
+}
+
+#no-mobile span {
+  margin-top: 5vw;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 645px) {
+  #no-mobile {
+    display: none;
+  }
+}
