@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chats - CosmoTalk</title>
+  </head>
+  <body>
+    <div class="status-bar">
+      <div class="status-bar__column">
+        <span>서비스 없음</span>
+        <i class="fa-solid fa-wifi"></i>
+      </div>
+      <div class="status-bar__column">
+        <span>11:11</span>
+      </div>
+      <div class="status-bar__column">
+        <span>88%</span>
+        <i class="fa-solid fa-battery-three-quarters fa-lg"></i>
+        <i class="fa-solid fa-bolt"></i>
+      </div>
+    </div>
+
+    <header class="screen-header">
+      <h1 class="screen-header__title">채팅</h1>
+      <div class="screen-header__icons">
+        <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
+        <span> <i class="fa-regular fa-comment-dots fa-lg"></i></span>
+        <span><i class="fa-solid fa-music fa-lg"></i></span>
+        <span><i class="fa-solid fa-gear fa-lg"></i></span>
+      </div>
+    </header>
+
+    <main class="main-screen">
+      <div class="chat-ad-banner">
+        <div>
+          <span>새로워진 iShuttle 18 Pro</span>
+        </div>
+        <i class="fa-solid fa-shuttle-space fa-xl"></i>
+      </div>
+      <a href="chat.html">
+        <div class="user-component">
+          <div class="user-component__column">
+            <img
+              src="img/engineer-profile.png"
+              class="user-component__avatar"
+            />
+            <div class="user-component__text">
+              <h4 class="user-component__title">엔지니어</h4>
+              <h6 class="eng-sub user-component__subtitle">답장해 친구.</h6>
+            </div>
+          </div>
+          <div class="user-component__column">
+            <span class="user-component__time">09:23</span>
+            <div class="eng__notification badge">3</div>
+          </div>
+        </div>
+      </a>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img src="img/joseph-profile.jpeg" class="user-component__avatar" />
+          <div class="user-component__text">
+            <h4 class="user-component__title">조셉 쿠퍼</h4>
+            <h6 class="user-component__subtitle">
+              우린 답을 찾을 것이다. 늘 그랬듯이.
+            </h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">04:19</span>
+          <div class="badge">1</div>
+        </div>
+      </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img
+            src="img/trisolaran-profile.jpg"
+            class="user-component__avatar"
+          />
+          <div class="user-component__text">
+            <h4 class="user-component__title">삼체인</h4>
+            <h6 class="user-component__subtitle">답장하지 마라.</h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">03:33</span>
+          <div class="badge">1</div>
+        </div>
+      </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img src="img/mark-profile.jpg" class="user-component__avatar" />
+          <div class="user-component__text">
+            <h4 class="user-component__title">마크 와트니</h4>
+            <h6 class="user-component__subtitle">나 완전히 X됐어.</h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">어제</span>
+          <div class="badge">1</div>
+        </div>
+      </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img src="img/obi-profile.png" class="user-component__avatar" />
+          <div class="user-component__text">
+            <h4 class="user-component__title">오비완 케노비</h4>
+            <h6 class="user-component__subtitle">포스가 함께하길.</h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">어제</span>
+          <div class="badge">1</div>
+        </div>
+      </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img src="img/jones-profile.jpeg" class="user-component__avatar" />
+          <div class="user-component__text">
+            <h4 class="user-component__title">존스</h4>
+            <h6 class="user-component__subtitle">하아악.</h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">어제</span>
+          <div class="badge">1</div>
+        </div>
+      </div>
+      <div class="user-component">
+        <div class="user-component__column">
+          <img src="img/spock-profile.png" class="user-component__avatar" />
+          <div class="user-component__text">
+            <h4 class="user-component__title">스팍</h4>
+            <h6 class="user-component__subtitle">장수와 번영을 빕니다.</h6>
+          </div>
+        </div>
+        <div class="user-component__column">
+          <span class="user-component__time">어제</span>
+          <div class="badge">1</div>
+        </div>
+      </div>
+    </main>
+
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__btn">
+          <a class="nav__link" href="friends.html"
+            ><i class="fa-regular fa-user fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="chats.html">
+            <span class="nav__notification badge">9</span>
+            <i class="fa-solid fa-message fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="find.html"
+            ><i class="fa-solid fa-magnifying-glass fa-2x"></i
+          ></a>
+        </li>
+        <li class="nav__btn">
+          <a class="nav__link" href="more.html">
+            <div class="nav__dot"></div>
+            <i class="fa-solid fa-ellipsis fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <div id="no-mobile">
+      <div class="black-hole">
+        <div class="black-hole__circle">
+          <div class="black-hole__hole">
+            <i class="fa-solid fa-person-running"></i>
+            <div class="black-hole__halo"></div>
+            <div class="black-hole__line"></div>
+          </div>
+        </div>
+      </div>
+      <span>화면의 너비를 줄여주세요 :(</span>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/90ea0c2c6a.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

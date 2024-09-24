@@ -1,0 +1,9 @@
+:root {
+  --mint: #32dac6;
+  --orange: #fb7000;
+  --yellow: #f7e70a;
+  --space: #0b0b0b;
+  --space-grey: #1b1b1b;
+  --horizontal-space: 25px;
+  --main-border: 1px solid var(--space-grey);
+}

@@ -1,0 +1,32 @@
+.settings__setting {
+  padding: 20px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.settings__setting-others {
+  padding-bottom: 50px;
+}
+
+.settings__setting i {
+  opacity: 0.8;
+  margin-right: 20px;
+  font-size: 22px;
+}
+
+.settings__setting-column:last-child {
+  opacity: 0.7;
+}
+
+.main-setting {
+  margin-top: 120px;
+}
+
+.settings__setting-column .fa-circle-exclamation {
+  color: var(--orange);
+  margin-left: 3px;
+  font-size: 14px;
+}
